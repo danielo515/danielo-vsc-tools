@@ -1,13 +1,15 @@
 {
     "name": "danielo-vsc-tools",
     "description": "All the utilities I ever wished VSCode has packed into my own extension",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Danielo VSC tools",
     "publisher": "danielo515",
     "icon": "images/danielo.png",
     "license": "SEE LICENSE IN LICENSE.md",
     "main": "src/extension.js",
-    "activationEvents": [ "*" ],
+    "activationEvents": [
+        "*"
+    ],
     "scripts": {
         "deploy": "vsce publish",
         "feat": "yarn run deploy minor",
@@ -21,7 +23,8 @@
         "vscode": "^1.14.x"
     },
     "categories": [
-        "Other","Formatters"
+        "Other",
+        "Formatters"
     ],
     "contributes": {
         "commands": [
