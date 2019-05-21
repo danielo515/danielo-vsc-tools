@@ -1,0 +1,48 @@
+{
+    "name": "danielo-vsc-tools",
+    "description": "All the utilities I ever wished VSCode has packed into my own extension",
+    "version": "1.0.0",
+    "displayName": "Danielo VSC tools",
+    "publisher": "danielo515",
+    "icon": "images/danielo.png",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "main": "src/extension.js",
+    "activationEvents": [ "*" ],
+    "scripts": {
+        "deploy": "vsce publish",
+        "feat": "yarn run deploy minor",
+        "vscode:prepublish": "node bin/build-readme.js && git add ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/danielo515/vscode-node-snippets"
+    },
+    "engines": {
+        "vscode": "^1.14.x"
+    },
+    "categories": [
+        "Other","Formatters"
+    ],
+    "contributes": {
+        "commands": [
+            {
+                "command": "danieloSnippets.convertToArrayString",
+                "title": "To array of strings",
+                "category": "Danielo",
+                "description": "Turns several lines into an array of strings. Useful for copy pasting snippets"
+            },
+            {
+                "command": "danieloSnippets.saveRegex",
+                "title": "Save regex",
+                "description": "Saves a regex for using it later",
+                "category": "Danielo"
+            },
+            {
+                "command": "danieloSnippets.loadRegex",
+                "title": "Execute saved regex",
+                "category": "Danielo",
+                "description": "Executes a saved regular expression"
+            }
+        ]
+    }
+}
