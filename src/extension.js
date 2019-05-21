@@ -52,9 +52,9 @@ function activate(context) {
   };
 
   const commands = [
-    ['danieloSnippets.convertToArrayString',convertToArrayString],
-    ['danieloSnippets.saveRegex',saveRegex],
-    ['danieloSnippets.loadRegex',loadRegex],
+    ['danieloTools.convertToArrayString',convertToArrayString],
+    ['danieloTools.saveRegex',saveRegex],
+    ['danieloTools.loadRegex',loadRegex],
   ].map(register);
 
   context.subscriptions.push(...commands);

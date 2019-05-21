@@ -1,4 +1,4 @@
-# vscode-node-snippets
+# vscode Danielo tools
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/danielo515/danielo-vsc-tools.svg)](https://greenkeeper.io/)
 All the utilities I ever wished VSCode has packed into my own extension.

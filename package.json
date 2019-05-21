@@ -15,7 +15,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/danielo515/vscode-node-snippets"
+        "url": "https://github.com/danielo515/vscode-danielo-tools"
     },
     "engines": {
         "vscode": "^1.14.x"
@@ -26,19 +26,19 @@
     "contributes": {
         "commands": [
             {
-                "command": "danieloSnippets.convertToArrayString",
+                "command": "danieloTools.convertToArrayString",
                 "title": "To array of strings",
                 "category": "Danielo",
                 "description": "Turns several lines into an array of strings. Useful for copy pasting snippets"
             },
             {
-                "command": "danieloSnippets.saveRegex",
+                "command": "danieloTools.saveRegex",
                 "title": "Save regex",
                 "description": "Saves a regex for using it later",
                 "category": "Danielo"
             },
             {
-                "command": "danieloSnippets.loadRegex",
+                "command": "danieloTools.loadRegex",
                 "title": "Execute saved regex",
                 "category": "Danielo",
                 "description": "Executes a saved regular expression"
