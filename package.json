@@ -1,7 +1,7 @@
 {
     "name": "danielo-vsc-tools",
     "description": "All the utilities I ever wished VSCode has packed into my own extension",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "displayName": "Danielo VSC tools",
     "publisher": "danielo515",
     "icon": "images/danielo.png",
