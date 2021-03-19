@@ -42,6 +42,12 @@
                 "category": "Danielo"
             },
             {
+                "command": "danieloTools.graphql-to-flow",
+                "title": "graphql to flow",
+                "description": "Convert a graphql query into a flow type",
+                "category": "danielo-tools"
+            },
+            {
                 "command": "danieloTools.loadRegex",
                 "title": "Execute saved regex",
                 "category": "Danielo",

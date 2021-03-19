@@ -1,14 +1,12 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "extensionHost",
-            "request": "launch",
-            "name": "Test snippets",
-            "runtimeExecutable": "${execPath}",
-            "args": [
-                "--extensionDevelopmentPath=${workspaceRoot}"
-            ]
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "extensionHost",
+      "request": "launch",
+      "name": "Test danielo tools",
+      "runtimeExecutable": "${execPath}",
+      "args": ["--extensionDevelopmentPath=${workspaceRoot}"]
+    }
+  ]
 }
