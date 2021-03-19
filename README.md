@@ -8,4 +8,5 @@ Feel free to wish more.
 |----|----|
 | To array of strings | Turns several lines into an array of strings. Useful for copy pasting snippets |
 | Save regex | Saves a regex for using it later |
+| graphql to flow | Convert a graphql query into a flow type |
 | Execute saved regex | Executes a saved regular expression |
